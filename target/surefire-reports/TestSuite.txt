@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 128.406 s <<< FAILURE! - in TestSuite
+Academy.validateTitle.landingtoHomePage  Time elapsed: 0.092 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATUREDaaa COURSES123] but found [FEATURED COURSES]
+	at Academy.validateTitle.landingtoHomePage(validateTitle.java:43)
+
+Academy.validateTitle.landingtoHomePage  Time elapsed: 31.387 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S26B4QU4', ip: '192.168.43.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Meenal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51774}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fa6e4b2a826bd042adadbdcd748a3070
+
+Academy.validateTitle.validateHeader  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: expected [An Academy to learn Everything about Testing] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]
+	at Academy.validateTitle.validateHeader(validateTitle.java:58)
+

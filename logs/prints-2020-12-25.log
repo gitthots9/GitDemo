@@ -1,0 +1,7 @@
+19:58:20.557 [TestNG-tests-2] INFO  resource.base - navigation happening
+19:58:35.213 [TestNG-tests-4] INFO  resource.base - launching the URL
+19:59:23.704 [TestNG-tests-3] INFO  resource.base - restricted user
+18:56:00.256 [TestNG-tests-4] INFO  resource.base - initialised the DRIVER
+18:57:00.324 [TestNG-tests-4] INFO  resource.base - launching the URL
+18:57:10.112 [TestNG-tests-3] INFO  resource.base - unrestricted user
+18:57:21.175 [TestNG-tests-3] INFO  resource.base - restricted user
