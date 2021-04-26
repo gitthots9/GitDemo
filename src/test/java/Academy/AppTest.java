@@ -16,5 +16,8 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+        System.out.println("checking GIT functionalities");
+        System.out.println("checking GIT functionalities1");
+        System.out.println("checking GIT functionalities2");
     }
 }
