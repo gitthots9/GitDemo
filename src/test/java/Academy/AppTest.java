@@ -19,5 +19,8 @@ public class AppTest
         System.out.println("checking GIT functionalities");
         System.out.println("checking GIT functionalities1");
         System.out.println("checking GIT functionalities2");
+        System.out.println("checking GIT functionalities3");
+        System.out.println("checking GIT functionalities4");
+        System.out.println("checking GIT functionalities5");
     }
 }
